@@ -1,14 +1,29 @@
 import  styled  from "styled-components";
 
-export const Container = styled.div`
-height: 100%;
-width: 100%;
-background-image: url(https://media-exp2.licdn.com/dms/image/C4D03AQEa1jZJ4Qn_AQ/profile-displayphoto-shrink_800_800/0/1632834268080?e=1660176000&v=beta&t=BENs0Ul6KaTbqWkqHK0Dvzrv8yzjoZaoGHA9FNV1SKI);
-opacity: 0.4;
+export const BackgroundImageContainer = styled.div`
+background-image: url(https://scontent.fpet4-1.fna.fbcdn.net/v/t1.15752-9/286578271_5178725835552377_7756174350365809160_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_ohc=9s_qmrwtIosAX9P6-04&_nc_ht=scontent.fpet4-1.fna&oh=03_AVKCHuQpjKdRnpaLq42e8qCwYIWYY-x2kXo7VpDl3WbjVQ&oe=62CF5521);
+display: flex;
+height: 100vh;
+width: 200vh;
 `
 
-export const BackgroundImageContainer = styled.div`
-height: 100vh;
-width: 100vh;
-background-color: 'black;
+export const Container = styled.div`
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+align-self: center;
+`
+export const MainTitle = styled.h1`
+position: absolute;
+font-size: 60px;
+color: red;
+top: 30%;
+left: 30%;
+`
+
+export const Teste = styled.p`
+color: white;
+font-size: 20px;
 `
