@@ -49,23 +49,23 @@ export default function SideBar({children}) {
                 <Name>Luis Weber</Name>
             </SectionAvatar>
             <SectionTopics>
-                <NavLink style={({ isActive }) => {return { textDecoration: 'none', color: isActive ? "red" : 'white'};}} to="/">
+                <NavLink style={({ isActive }) => {return { textDecoration: 'none', color: isActive ? "#FF3333" : 'white'};}} to="/">
                     <Item>Home</Item>
                 </NavLink >
-                <NavLink style={({ isActive }) => { return { textDecoration: 'none', color: isActive ? "red" : 'white'};}} to="/about">
-                    <Item>Sobre</Item>
+                <NavLink style={({ isActive }) => { return { textDecoration: 'none', color: isActive ? "#FF3333" : 'white'};}} to="/about">
+                    <Item>About</Item>
                 </NavLink >
-                <NavLink style={({ isActive }) => { return { textDecoration: 'none', color: isActive ? "red" : 'white', };}} to="/projects">
-                    <Item>Projetos</Item>
+                <NavLink style={({ isActive }) => { return { textDecoration: 'none', color: isActive ? "#FF3333" : 'white', };}} to="/projects">
+                    <Item>Projects</Item>
                 </NavLink >
-                <NavLink style={({ isActive }) => { return { textDecoration: 'none', color: isActive ? "red" : 'white',};}} to="/technologies">
-                    <Item>Tecnologias</Item>
+                <NavLink style={({ isActive }) => { return { textDecoration: 'none', color: isActive ? "#FF3333" : 'white',};}} to="/technologies">
+                    <Item>Technologies</Item>
                 </NavLink >
-                <NavLink style={({ isActive }) => { return { textDecoration: 'none', color: isActive ? "red" : 'white',};}} to="/contact">
-                    <Item>Contato</Item>
+                <NavLink style={({ isActive }) => { return { textDecoration: 'none', color: isActive ? "#FF3333" : 'white',};}} to="/contact">
+                    <Item>Contact</Item>
                 </NavLink >
-                <NavLink style={({ isActive }) => { return { textDecoration: 'none', color: isActive ? "red" : 'white',};}} to="/social">
-                    <Item>Redes</Item>
+                <NavLink style={({ isActive }) => { return { textDecoration: 'none', color: isActive ? "#FF3333" : 'white',};}} to="/social">
+                    <Item>Socials</Item>
                 </NavLink >
             </SectionTopics>
 

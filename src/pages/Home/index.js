@@ -1,14 +1,30 @@
-import * as React from 'react';
-import { Container, BackgroundImageContainer, MainTitle, Teste } from './style.css.js'
+import React, { useCallback } from 'react';
+import { Button } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
+
+import { Container, BackgroundImageContainer, MainTitle, Paragraph } from './style.css.js'
 
 export default function Home() {
+    const history = useNavigate()
+
+    const handleButtonClick = useCallback(() => {
+        history('/about')
+    },[history])
+
   return (
         <BackgroundImageContainer>
              <Container>
                  <MainTitle>
-                     Sou Desenvolvedor de Software
-                     <Teste>Desenvolvedor Web Fullstack com as linguagens Javascript e Java,<br />
-                      utilizando frameworks como React e Springboot</Teste>
+                    I'am a Software Developer!
+                     <Paragraph>i'm a full stack software developer with tools like  React, Typescript and Java/Springboot. <br />
+                     Click below to get to know me better.
+                      </Paragraph>
+                    <Button
+                    onClick={ handleButtonClick }
+                     variant='contained'
+                     color='error'
+                     style={{position: 'relative', top: '4%', left:'40%', width: '7vw'}}
+                     >About me</Button>
                  </MainTitle>
             </Container>
         </BackgroundImageContainer>
