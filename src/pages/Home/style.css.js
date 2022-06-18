@@ -1,5 +1,5 @@
 import  styled  from "styled-components";
-import img from '../../assets/background.png'
+import img from '../../assets/wallpaper.jpg'
 
 export const BackgroundImageContainer = styled.div`
 background-image: url(${img});
@@ -29,11 +29,20 @@ export const MainTitle = styled.h1`
 position: absolute;
 font-size: 60px;
 color: #FF3333;
-top: 25%;
-left: 26%;
+top: 3%;
+left: 10%;
 `
 
 export const Paragraph = styled.p`
-color: #ff3333;
+color: white;
 font-size: 25px;
+`
+export const FakeBackground = styled.div`
+position: relative;
+bottom: 5%;
+left: 3%;
+width: 65vw;
+height: 20vw;
+background-color: #262626;
+opacity: 0.8;
 `
