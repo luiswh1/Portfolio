@@ -1,7 +1,6 @@
 import React, { useCallback } from "react";
 import { useNavigate } from 'react-router-dom'
-import { Button } from '@mui/material';
-import { Container, Image, SectionAbout, FakeBackground, Title, Paragraph } from './style.css'
+import { Container, Image, SectionAbout, FakeBackground, Title, Paragraph, ButtonStyled } from './style.css'
 
 
 const About = () => {
@@ -22,7 +21,7 @@ const About = () => {
             I took an intensive fullstack development course at growdev between 2020 and 2021 which allowed me to enter the job market.
             </Paragraph>
             <Paragraph style={{color: 'red'}}>Wanna discover more about my skills?</Paragraph>
-        <Button variant="contained" color='error' onClick={ handleClickButton }>Check my projects</Button>
+        <ButtonStyled variant="contained" color='error' onClick={ handleClickButton }>Check my projects</ButtonStyled>
         </SectionAbout>
     </Container>
     </>

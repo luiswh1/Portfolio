@@ -1,8 +1,7 @@
 import React, { useCallback } from 'react';
-import { Button } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 
-import { Container, BackgroundImageContainer, MainTitle, Paragraph,FakeBackground } from './style.css.js'
+import { Container, BackgroundImageContainer, MainTitle, Paragraph,FakeBackground, ButtonStyled } from './style.css.js'
 
 export default function Home() {
     const history = useNavigate()
@@ -20,12 +19,11 @@ export default function Home() {
                      <Paragraph>i'm a full stack software developer with tools like  React, Typescript and Java/Springboot. <br />
                      Click below to get to know me better.
                       </Paragraph>
-                    <Button
+                    <ButtonStyled
                     onClick={ handleButtonClick }
                      variant='contained'
                      color='error'
-                     style={{position: 'relative', top: '4%', left:'40%', width: '7vw'}}
-                     >About me</Button>
+                     >About me</ButtonStyled>
                  </MainTitle>
                 </FakeBackground>
             </Container>

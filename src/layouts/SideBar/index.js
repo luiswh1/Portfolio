@@ -33,7 +33,7 @@ export default function SideBar({children}) {
            <Drawer
            PaperProps={{
                sx: {
-                   backgroundColor: "#262626"
+                   backgroundColor: "#262626",
                }
            }}
         sx={{
