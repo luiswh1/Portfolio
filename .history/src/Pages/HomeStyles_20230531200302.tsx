@@ -102,7 +102,7 @@ font-weight: bold;
 `
 
 export const FooterSection = styled.section`
-margin-top: 12vh;
+margin-top: 10vh;
 color: white;
 font-weight: bold;
 display: flex;

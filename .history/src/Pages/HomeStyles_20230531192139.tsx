@@ -31,24 +31,29 @@ margin-top: 3vh;
 color: white;
 font-weight: bold;
 `
+
 export const LabelTitle = styled.div`
-margin-top: 5vh;
-display: flex;
-align-items: flex-end;
-`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+export const StyledSpanExp = styled.span`
+  font-size: 3em;
+  color: white;
+`;
 
 export const NumberIndex = styled.span`
   font-size: 2em;
   color: gray;
-  margin-right: 3vw;
 `;
 
 export const IndexTitle = styled.span`
   font-size: 3em;
   color: white;
-  margin-left: 3vw;
   font-weight: bold;
 `;
+
 
 
 export const ListSkills = styled.div`
@@ -62,13 +67,6 @@ flex-basis: 50%;
 margin-bottom: 3vh;
 color: white;
 `;
-
-export const StyledSpanExp = styled.span`
-font-size: 3em;
-color: white;
-font-weight: bold;
-margin-left: 3vw;
-`
 
 export const Experience = styled.section`
 margin-top: 5vh;

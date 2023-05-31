@@ -46,7 +46,6 @@ export const NumberIndex = styled.span`
 export const IndexTitle = styled.span`
   font-size: 3em;
   color: white;
-  margin-left: 3vw;
   font-weight: bold;
 `;
 
@@ -67,7 +66,6 @@ export const StyledSpanExp = styled.span`
 font-size: 3em;
 color: white;
 font-weight: bold;
-margin-left: 3vw;
 `
 
 export const Experience = styled.section`

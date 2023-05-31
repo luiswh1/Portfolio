@@ -33,8 +33,6 @@ font-weight: bold;
 `
 export const LabelTitle = styled.div`
 margin-top: 5vh;
-display: flex;
-align-items: flex-end;
 `
 
 export const NumberIndex = styled.span`
@@ -50,6 +48,13 @@ export const IndexTitle = styled.span`
   font-weight: bold;
 `;
 
+export const StyledSpanExp = styled.span`
+font-size: 3em;
+color: white;
+margin-left: 20vw;
+font-weight: bold;
+margin-right: 3vw;
+`
 
 export const ListSkills = styled.div`
 margin-top: 3vh;
@@ -62,13 +67,6 @@ flex-basis: 50%;
 margin-bottom: 3vh;
 color: white;
 `;
-
-export const StyledSpanExp = styled.span`
-font-size: 3em;
-color: white;
-font-weight: bold;
-margin-left: 3vw;
-`
 
 export const Experience = styled.section`
 margin-top: 5vh;

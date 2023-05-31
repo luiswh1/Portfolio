@@ -41,15 +41,10 @@ const Home = () => {
           </Profession>
 
           <About>
-            I am a passionate and dedicated Full Stack Junior Developer with 2
-            years of experience. , I have successfully contributed to the
-            development of visually appealing, user-friendly web applications.
-            Throughout my career, I have actively participated in the full
-            software development lifecycle, collaborating effectively within
-            teams and delivering projects on time. My portfolio showcases my
-            technical skills, problem-solving abilities, and commitment to
-            delivering high-quality solutions. I am eager to join a dynamic team
-            and contribute my knowledge and enthusiasm to drive success.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+            corporis culpa quaerat repudiandae eligendi consequatur quasi dicta
+            rem, architecto vitae iure harum itaque molestiae sunt omnis quas
+            atque a ducimus!
           </About>
 
           <LabelTitle>
@@ -58,10 +53,10 @@ const Home = () => {
           </LabelTitle>
 
           <About>
-            I have expertise in both front-end and back-end technologies,
-            including HTML, CSS, JavaScript, React, Typescript, Node.js, and
-            Java. below it is possible to better check the tools that I have
-            already used
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+            corporis culpa quaerat repudiandae eligendi consequatur quasi dicta
+            rem, architecto vitae iure harum itaque molestiae sunt omnis quas
+            atque a ducimus!
           </About>
 
           <ListSkills>
@@ -76,11 +71,11 @@ const Home = () => {
           <LabelTitle id="parent">
             {/* TODO Ajustar o EXP em diferente resoluções de celular, pois está ficando desalinhado com o ERIENCE */}
             <div>
-              <NumberIndex>02.</NumberIndex>
+            <NumberIndex>02.</NumberIndex>
             </div>
             <div id="divhaha">
-              <StyledSpanExp>EXP-</StyledSpanExp>
-              <IndexTitle>ERIENCE</IndexTitle>
+            <StyledSpanExp>EXP-</StyledSpanExp>
+            <IndexTitle>ERIENCE</IndexTitle>
             </div>
           </LabelTitle>
 
@@ -112,9 +107,7 @@ const Home = () => {
           </SectionContacts>
 
           <FooterSection>
-            <h4 style={{ marginBottom: "3vh" }}>
-              Developed by Luis Weber - 2023
-            </h4>
+            <h4 style={{ marginBottom: '5px' }}>Developed by Luis Weber - 2023</h4>
           </FooterSection>
         </Fade>
       </InnerContainer>

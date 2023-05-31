@@ -49,7 +49,7 @@ const Home = () => {
             teams and delivering projects on time. My portfolio showcases my
             technical skills, problem-solving abilities, and commitment to
             delivering high-quality solutions. I am eager to join a dynamic team
-            and contribute my knowledge and enthusiasm to drive success.
+            and contribute my knowledge and enthusiasm to drive success.{" "}
           </About>
 
           <LabelTitle>
@@ -58,10 +58,10 @@ const Home = () => {
           </LabelTitle>
 
           <About>
-            I have expertise in both front-end and back-end technologies,
-            including HTML, CSS, JavaScript, React, Typescript, Node.js, and
-            Java. below it is possible to better check the tools that I have
-            already used
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+            corporis culpa quaerat repudiandae eligendi consequatur quasi dicta
+            rem, architecto vitae iure harum itaque molestiae sunt omnis quas
+            atque a ducimus!
           </About>
 
           <ListSkills>

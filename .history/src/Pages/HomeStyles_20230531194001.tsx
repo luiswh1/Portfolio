@@ -31,22 +31,34 @@ margin-top: 3vh;
 color: white;
 font-weight: bold;
 `
+
+
+export const ExpPlaceholder = styled.span`
+  font-size: 3em;
+  visibility: hidden;
+`;
+
+
+export const ExpWrapper = styled.div`
+  display: flex;
+`;
+
+
 export const LabelTitle = styled.div`
-margin-top: 5vh;
-display: flex;
-align-items: flex-end;
-`
+  display: flex;
+  align-items: center;
+`;
+
 
 export const NumberIndex = styled.span`
   font-size: 2em;
   color: gray;
-  margin-right: 3vw;
+  margin-right: 0.5vw;
 `;
 
 export const IndexTitle = styled.span`
   font-size: 3em;
   color: white;
-  margin-left: 3vw;
   font-weight: bold;
 `;
 
@@ -64,10 +76,9 @@ color: white;
 `;
 
 export const StyledSpanExp = styled.span`
-font-size: 3em;
+font-size: 3.3em;
 color: white;
-font-weight: bold;
-margin-left: 3vw;
+margin-left: 20vw;
 `
 
 export const Experience = styled.section`

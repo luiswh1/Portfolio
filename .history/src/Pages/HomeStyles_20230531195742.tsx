@@ -67,7 +67,6 @@ export const StyledSpanExp = styled.span`
 font-size: 3em;
 color: white;
 font-weight: bold;
-margin-left: 3vw;
 `
 
 export const Experience = styled.section`

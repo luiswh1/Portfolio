@@ -42,14 +42,16 @@ const Home = () => {
 
           <About>
             I am a passionate and dedicated Full Stack Junior Developer with 2
-            years of experience. , I have successfully contributed to the
-            development of visually appealing, user-friendly web applications.
-            Throughout my career, I have actively participated in the full
-            software development lifecycle, collaborating effectively within
-            teams and delivering projects on time. My portfolio showcases my
-            technical skills, problem-solving abilities, and commitment to
-            delivering high-quality solutions. I am eager to join a dynamic team
-            and contribute my knowledge and enthusiasm to drive success.
+            years of experience. With expertise in both front-end and back-end
+            technologies, including HTML, CSS, JavaScript, React, Node.js, and
+            Python, I have successfully contributed to the development of
+            visually appealing, user-friendly web applications. Throughout my
+            career, I have actively participated in the full software
+            development lifecycle, collaborating effectively within teams and
+            delivering projects on time. My portfolio showcases my technical
+            skills, problem-solving abilities, and commitment to delivering
+            high-quality solutions. I am eager to join a dynamic team and
+            contribute my knowledge and enthusiasm to drive success.
           </About>
 
           <LabelTitle>
@@ -58,10 +60,10 @@ const Home = () => {
           </LabelTitle>
 
           <About>
-            I have expertise in both front-end and back-end technologies,
-            including HTML, CSS, JavaScript, React, Typescript, Node.js, and
-            Java. below it is possible to better check the tools that I have
-            already used
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+            corporis culpa quaerat repudiandae eligendi consequatur quasi dicta
+            rem, architecto vitae iure harum itaque molestiae sunt omnis quas
+            atque a ducimus!
           </About>
 
           <ListSkills>

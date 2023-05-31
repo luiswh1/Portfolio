@@ -58,10 +58,10 @@ const Home = () => {
           </LabelTitle>
 
           <About>
-            I have expertise in both front-end and back-end technologies,
-            including HTML, CSS, JavaScript, React, Typescript, Node.js, and
-            Java. below it is possible to better check the tools that I have
-            already used
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+            corporis culpa quaerat repudiandae eligendi consequatur quasi dicta
+            rem, architecto vitae iure harum itaque molestiae sunt omnis quas
+            atque a ducimus!
           </About>
 
           <ListSkills>

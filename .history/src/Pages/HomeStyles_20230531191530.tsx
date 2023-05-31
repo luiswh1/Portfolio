@@ -33,8 +33,6 @@ font-weight: bold;
 `
 export const LabelTitle = styled.div`
 margin-top: 5vh;
-display: flex;
-align-items: flex-end;
 `
 
 export const NumberIndex = styled.span`
@@ -64,10 +62,10 @@ color: white;
 `;
 
 export const StyledSpanExp = styled.span`
-font-size: 3em;
+font-size: 3.3em;
 color: white;
+margin-left: 20vw;
 font-weight: bold;
-margin-left: 3vw;
 `
 
 export const Experience = styled.section`

@@ -32,10 +32,16 @@ color: white;
 font-weight: bold;
 `
 export const LabelTitle = styled.div`
-margin-top: 5vh;
-display: flex;
-align-items: flex-end;
-`
+  display: flex;
+  align-items: baseline;
+`;
+
+export const StyledSpanExp = styled.span`
+  font-size: 3.3em;
+  color: white;
+  margin-left: 20vw;
+  vertical-align: middle; /* Adicionado */
+`;
 
 export const NumberIndex = styled.span`
   font-size: 2em;
@@ -48,6 +54,7 @@ export const IndexTitle = styled.span`
   color: white;
   margin-left: 3vw;
   font-weight: bold;
+  vertical-align: middle; /* Adicionado */
 `;
 
 
@@ -62,13 +69,6 @@ flex-basis: 50%;
 margin-bottom: 3vh;
 color: white;
 `;
-
-export const StyledSpanExp = styled.span`
-font-size: 3em;
-color: white;
-font-weight: bold;
-margin-left: 3vw;
-`
 
 export const Experience = styled.section`
 margin-top: 5vh;
