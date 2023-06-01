@@ -35,16 +35,11 @@ const Home = () => {
             </StyledName>
           </NameSection>
 
-          {/* TO DO - COMPONENTIZAR UMA STYLED DIV PARA IMAGEM (A DECIDIR LAYOUT AINDA) */}
-          <div
-            style={{
-              width: "100%",
-              height: "150px",
-              backgroundColor: "white",
-              margin: "auto",
-              marginTop: "3vh",
-            }}
-          ></div>
+        {/* TO DO - COMPONENTIZAR UMA STYLED DIV PARA IMAGEM (A DECIDIR LAYOUT AINDA) */}
+        <div style={{width: '100%', height: '150px', backgroundColor: 'white', margin: 'auto', marginTop: '3vh'}}>
+
+
+        </div>
           <Profession>
             FULLSTACK <br />
             DEVELOPER
@@ -76,77 +71,23 @@ const Home = () => {
 
           <ListSkills>
             <SkillItem>
-              <img
-                src="/assets/images/html.png"
-                alt=""
-                style={{ width: "12vw", height: "6vh" }}
-              />
-              HTML
-            </SkillItem>
+              React
+              </SkillItem>
             <SkillItem>
-              <img
-                src="/assets/images/css-3.png"
-                alt=""
-                style={{ width: "12vw", height: "6vh" }}
-              />
-              CSS3
-            </SkillItem>
-            <SkillItem>
-              <img
-                src="/assets/images/js.png"
-                alt=""
-                style={{ width: "12vw", height: "6vh" }}
-              />
               Javascript
             </SkillItem>
             <SkillItem>
-              <img
-                src="/assets/images/physics.png"
-                alt=""
-                style={{ width: "12vw", height: "6vh" }}
-              />{" "}
-              React
-            </SkillItem>
-            <SkillItem>
-              <img
-                src="/assets/images/typescript.png"
-                alt=""
-                style={{ width: "12vw", height: "6vh" }}
-              />
-              Typescript
-            </SkillItem>
-            <SkillItem>
-              <img
-                src="/assets/images/node-js.png"
-                alt=""
-                style={{ width: "12vw", height: "6vh" }}
-              />
-              Node
-            </SkillItem>
-            <SkillItem>
-              <img
-                src="/assets/images/java.png"
-                alt=""
-                style={{ width: "12vw", height: "6vh" }}
-              />
               Java
-            </SkillItem>
+              </SkillItem>
             <SkillItem>
-              <img
-                src="/assets/images/mysql.png"
-                alt=""
-                style={{ width: "12vw", height: "6vh" }}
-              />
-              MySQL
-            </SkillItem>{" "}
+              Typescript
+              </SkillItem>
             <SkillItem>
-              <img
-                src="/assets/images/api.png"
-                alt=""
-                style={{ width: "12vw", height: "6vh" }}
-              />
-              RestfulAPI
-            </SkillItem>
+              Node
+              </SkillItem>
+            <SkillItem>
+              CSS
+              </SkillItem>
           </ListSkills>
 
           <LabelTitle id="parent">

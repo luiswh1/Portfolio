@@ -36,15 +36,15 @@ const Home = () => {
           </NameSection>
 
           {/* TO DO - COMPONENTIZAR UMA STYLED DIV PARA IMAGEM (A DECIDIR LAYOUT AINDA) */}
-          <div
+          <img src="https://media.licdn.com/dms/image/C4D03AQEa1jZJ4Qn_AQ/profile-displayphoto-shrink_800_800/0/1632834268080?e=1691020800&v=beta&t=3ybolu9lq9d3gPsEU_3TV_MhNQfZkWfaSh77BRCk7MM"
             style={{
-              width: "100%",
+              width: "80%",
               height: "150px",
               backgroundColor: "white",
               margin: "auto",
               marginTop: "3vh",
             }}
-          ></div>
+          ></img>
           <Profession>
             FULLSTACK <br />
             DEVELOPER

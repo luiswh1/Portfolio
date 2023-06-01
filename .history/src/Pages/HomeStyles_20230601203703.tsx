@@ -62,8 +62,6 @@ flex-basis: 50%;
 margin-bottom: 3vh;
 color: white;
 display: flex;
-align-items: center;
-gap: 10px;
 `;
 
 export const StyledSpanExp = styled.span`

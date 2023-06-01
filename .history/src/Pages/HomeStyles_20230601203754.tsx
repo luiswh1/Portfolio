@@ -63,7 +63,7 @@ margin-bottom: 3vh;
 color: white;
 display: flex;
 align-items: center;
-gap: 10px;
+gap: 5px;
 `;
 
 export const StyledSpanExp = styled.span`

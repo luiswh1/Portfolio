@@ -75,78 +75,12 @@ const Home = () => {
           </About>
 
           <ListSkills>
-            <SkillItem>
-              <img
-                src="/assets/images/html.png"
-                alt=""
-                style={{ width: "12vw", height: "6vh" }}
-              />
-              HTML
-            </SkillItem>
-            <SkillItem>
-              <img
-                src="/assets/images/css-3.png"
-                alt=""
-                style={{ width: "12vw", height: "6vh" }}
-              />
-              CSS3
-            </SkillItem>
-            <SkillItem>
-              <img
-                src="/assets/images/js.png"
-                alt=""
-                style={{ width: "12vw", height: "6vh" }}
-              />
-              Javascript
-            </SkillItem>
-            <SkillItem>
-              <img
-                src="/assets/images/physics.png"
-                alt=""
-                style={{ width: "12vw", height: "6vh" }}
-              />{" "}
-              React
-            </SkillItem>
-            <SkillItem>
-              <img
-                src="/assets/images/typescript.png"
-                alt=""
-                style={{ width: "12vw", height: "6vh" }}
-              />
-              Typescript
-            </SkillItem>
-            <SkillItem>
-              <img
-                src="/assets/images/node-js.png"
-                alt=""
-                style={{ width: "12vw", height: "6vh" }}
-              />
-              Node
-            </SkillItem>
-            <SkillItem>
-              <img
-                src="/assets/images/java.png"
-                alt=""
-                style={{ width: "12vw", height: "6vh" }}
-              />
-              Java
-            </SkillItem>
-            <SkillItem>
-              <img
-                src="/assets/images/mysql.png"
-                alt=""
-                style={{ width: "12vw", height: "6vh" }}
-              />
-              MySQL
-            </SkillItem>{" "}
-            <SkillItem>
-              <img
-                src="/assets/images/api.png"
-                alt=""
-                style={{ width: "12vw", height: "6vh" }}
-              />
-              RestfulAPI
-            </SkillItem>
+            <SkillItem>  <img src="/assets/images/physics.png" alt="" style={{ width: '2vw', height: '2vh' }}/> React</SkillItem>
+            <SkillItem> <img src="/assets/images/physics.png" alt="" style={{ width: '2vw', height: '2vh' }}/>Javascript</SkillItem>
+            <SkillItem> <img src="/assets/images/physics.png" alt="" style={{ width: '2vw', height: '2vh' }}/>Java</SkillItem>
+            <SkillItem> <img src="/assets/images/physics.png" alt="" style={{ width: '2vw', height: '2vh' }}/>Typescript</SkillItem>
+            <SkillItem> <img src="/assets/images/physics.png" alt="" style={{ width: '2vw', height: '2vh' }}/>Node</SkillItem>
+            <SkillItem> <img src="/assets/images/physics.png" alt="" style={{ width: '2vw', height: '2vh' }}/>CSS</SkillItem>
           </ListSkills>
 
           <LabelTitle id="parent">

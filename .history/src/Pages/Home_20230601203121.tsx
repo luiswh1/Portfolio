@@ -79,7 +79,7 @@ const Home = () => {
               <img
                 src="/assets/images/html.png"
                 alt=""
-                style={{ width: "12vw", height: "6vh" }}
+                style={{ width: "10vw", height: "5vh" }}
               />
               HTML
             </SkillItem>
@@ -87,15 +87,15 @@ const Home = () => {
               <img
                 src="/assets/images/css-3.png"
                 alt=""
-                style={{ width: "12vw", height: "6vh" }}
+                style={{ width: "10vw", height: "5vh" }}
               />
-              CSS3
+              CSS
             </SkillItem>
             <SkillItem>
               <img
                 src="/assets/images/js.png"
                 alt=""
-                style={{ width: "12vw", height: "6vh" }}
+                style={{ width: "10vw", height: "5vh" }}
               />
               Javascript
             </SkillItem>
@@ -103,7 +103,7 @@ const Home = () => {
               <img
                 src="/assets/images/physics.png"
                 alt=""
-                style={{ width: "12vw", height: "6vh" }}
+                style={{ width: "10vw", height: "5vh" }}
               />{" "}
               React
             </SkillItem>
@@ -111,7 +111,7 @@ const Home = () => {
               <img
                 src="/assets/images/typescript.png"
                 alt=""
-                style={{ width: "12vw", height: "6vh" }}
+                style={{ width: "10vw", height: "5vh" }}
               />
               Typescript
             </SkillItem>
@@ -119,7 +119,7 @@ const Home = () => {
               <img
                 src="/assets/images/node-js.png"
                 alt=""
-                style={{ width: "12vw", height: "6vh" }}
+                style={{ width: "10vw", height: "5vh" }}
               />
               Node
             </SkillItem>
@@ -127,7 +127,7 @@ const Home = () => {
               <img
                 src="/assets/images/java.png"
                 alt=""
-                style={{ width: "12vw", height: "6vh" }}
+                style={{ width: "10vw", height: "5vh" }}
               />
               Java
             </SkillItem>
@@ -135,7 +135,7 @@ const Home = () => {
               <img
                 src="/assets/images/mysql.png"
                 alt=""
-                style={{ width: "12vw", height: "6vh" }}
+                style={{ width: "10vw", height: "5vh" }}
               />
               MySQL
             </SkillItem>{" "}
@@ -143,7 +143,7 @@ const Home = () => {
               <img
                 src="/assets/images/api.png"
                 alt=""
-                style={{ width: "12vw", height: "6vh" }}
+                style={{ width: "10vw", height: "5vh" }}
               />
               RestfulAPI
             </SkillItem>

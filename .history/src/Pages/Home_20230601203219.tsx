@@ -89,7 +89,7 @@ const Home = () => {
                 alt=""
                 style={{ width: "12vw", height: "6vh" }}
               />
-              CSS3
+              CSS
             </SkillItem>
             <SkillItem>
               <img

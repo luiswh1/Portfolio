@@ -14,7 +14,7 @@ export const InnerContainer = styled.div`
 export const NameSection = styled.div`
   width: 100%;
   height: 100%;
-  margin-top: 6vh;
+  margin-top: 8vh;
 `;
 
 export const StyledName = styled.h1`
@@ -52,18 +52,15 @@ export const IndexTitle = styled.span`
 
 
 export const ListSkills = styled.div`
-margin-top: 8vh;
+margin-top: 3vh;
 display: flex;
   flex-wrap: wrap;
 `;
 
-export const SkillItem = styled.div`
+export const SkillItem = styled.span`
 flex-basis: 50%;
 margin-bottom: 3vh;
 color: white;
-display: flex;
-align-items: center;
-gap: 10px;
 `;
 
 export const StyledSpanExp = styled.span`

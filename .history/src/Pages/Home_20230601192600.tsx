@@ -35,16 +35,6 @@ const Home = () => {
             </StyledName>
           </NameSection>
 
-          {/* TO DO - COMPONENTIZAR UMA STYLED DIV PARA IMAGEM (A DECIDIR LAYOUT AINDA) */}
-          <div
-            style={{
-              width: "100%",
-              height: "150px",
-              backgroundColor: "white",
-              margin: "auto",
-              marginTop: "3vh",
-            }}
-          ></div>
           <Profession>
             FULLSTACK <br />
             DEVELOPER
@@ -75,78 +65,12 @@ const Home = () => {
           </About>
 
           <ListSkills>
-            <SkillItem>
-              <img
-                src="/assets/images/html.png"
-                alt=""
-                style={{ width: "12vw", height: "6vh" }}
-              />
-              HTML
-            </SkillItem>
-            <SkillItem>
-              <img
-                src="/assets/images/css-3.png"
-                alt=""
-                style={{ width: "12vw", height: "6vh" }}
-              />
-              CSS3
-            </SkillItem>
-            <SkillItem>
-              <img
-                src="/assets/images/js.png"
-                alt=""
-                style={{ width: "12vw", height: "6vh" }}
-              />
-              Javascript
-            </SkillItem>
-            <SkillItem>
-              <img
-                src="/assets/images/physics.png"
-                alt=""
-                style={{ width: "12vw", height: "6vh" }}
-              />{" "}
-              React
-            </SkillItem>
-            <SkillItem>
-              <img
-                src="/assets/images/typescript.png"
-                alt=""
-                style={{ width: "12vw", height: "6vh" }}
-              />
-              Typescript
-            </SkillItem>
-            <SkillItem>
-              <img
-                src="/assets/images/node-js.png"
-                alt=""
-                style={{ width: "12vw", height: "6vh" }}
-              />
-              Node
-            </SkillItem>
-            <SkillItem>
-              <img
-                src="/assets/images/java.png"
-                alt=""
-                style={{ width: "12vw", height: "6vh" }}
-              />
-              Java
-            </SkillItem>
-            <SkillItem>
-              <img
-                src="/assets/images/mysql.png"
-                alt=""
-                style={{ width: "12vw", height: "6vh" }}
-              />
-              MySQL
-            </SkillItem>{" "}
-            <SkillItem>
-              <img
-                src="/assets/images/api.png"
-                alt=""
-                style={{ width: "12vw", height: "6vh" }}
-              />
-              RestfulAPI
-            </SkillItem>
+            <SkillItem>React</SkillItem>
+            <SkillItem>Javascript</SkillItem>
+            <SkillItem>Java</SkillItem>
+            <SkillItem>Typescript</SkillItem>
+            <SkillItem>Node</SkillItem>
+            <SkillItem>CSS</SkillItem>
           </ListSkills>
 
           <LabelTitle id="parent">
@@ -162,7 +86,7 @@ const Home = () => {
 
           <Experience>
             <Company>Meta</Company>
-            <Date>September - 2021 - Present</Date>
+            <Date>Setembto - 2021 - Present</Date>
             <Description>
               As a professional at Meta company, I was responsible for
               developing new features and resolving bugs in web applications, as
@@ -176,32 +100,14 @@ const Home = () => {
             </Description>
           </Experience>
 
-          <Experience>
-            <Company>Growdev</Company>
-            <Date>October - 2020 - October - 2021</Date>
-            <Description>
-              I successfully completed a rigorous 1-year intensive full-stack
-              web development course where I acquired extensive knowledge in the
-              technologies essential to my current professional work, including
-              JavaScript, React, Node.js, MySQL, and PostgreSQL. This
-              comprehensive course provided me with a profound understanding of
-              the entire development process, encompassing both front-end and
-              back-end aspects, including the implementation of RESTful APIs and
-              the structuring of database schemas.
-            </Description>
-          </Experience>
-
           <LabelTitle>
             <NumberIndex>03.</NumberIndex>
             <IndexTitle>CONTACT</IndexTitle>
           </LabelTitle>
 
           <About>
-            If you would like to have a direct conversation with me to get to
-            know me better, I have provided all of my contact information and
-            social media profiles below for ease of communication. I look
-            forward to hearing from you, and thank you for visiting my
-            professional portfolio.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+            corporis culpa quaerat repudiandae eligendi
           </About>
 
           <SectionContacts>
