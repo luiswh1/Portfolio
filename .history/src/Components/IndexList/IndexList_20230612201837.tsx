@@ -30,15 +30,15 @@ const IndexList = () => {
           <span>00</span>
           <span>ABOUT</span>
         </SectionItem>
-        <SectionItem onClick={handleSectionClick(2)} isActive={ activeSpan === 2 }>
+        <SectionItem id="topic-2" onClick={handleSectionClick(2)} isActive={ activeSpan === 2 }>
           <span>01</span>
           <span>SKILLS</span>
         </SectionItem>
-        <SectionItem onClick={handleSectionClick(3)} isActive={ activeSpan === 3 }>
+        <SectionItem id="topic-3" onClick={handleSectionClick(3)} isActive={ activeSpan === 3 }>
           <span>02</span>
           <span>EXP</span>
         </SectionItem>
-        <SectionItem onClick={handleSectionClick(4)} isActive={ activeSpan === 4 }>
+        <SectionItem id="topic-4" onClick={handleSectionClick(4)} isActive={ activeSpan === 4 }>
           <span>03</span>
           <span>CONTACT</span>
         </SectionItem>

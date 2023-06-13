@@ -28,7 +28,7 @@ const Home = () => {
       <InnerContainer>
         <Fade direction="down" triggerOnce>
           <IndexList />
-          <NameSection id="topic-1">
+          <NameSection>
             <StyledName>
               LUIS <br />
               WEBER
@@ -36,6 +36,16 @@ const Home = () => {
           </NameSection>
 
           {/* TO DO - COMPONENTIZAR UMA STYLED DIV PARA IMAGEM (A DECIDIR LAYOUT AINDA) */}
+          <img
+              src='/assets/images/avatar.png'
+            style={{
+              width: "100%",
+              height: "150px",
+              margin: "auto",
+              marginTop: "3vh",
+            }}
+          >
+          </img>
           <Profession>
             FULLSTACK <br />
             DEVELOPER
@@ -53,7 +63,7 @@ const Home = () => {
             and contribute my knowledge and enthusiasm to drive success.
           </About>
 
-          <LabelTitle id="topic-2">
+          <LabelTitle>
             <NumberIndex>01.</NumberIndex>
             <IndexTitle>SKILLS</IndexTitle>
           </LabelTitle>
@@ -140,7 +150,7 @@ const Home = () => {
             </SkillItem>
           </ListSkills>
 
-          <LabelTitle id="topic-3">
+          <LabelTitle id="parent">
             {/* TODO Ajustar o EXP em diferente resoluções de celular, pois está ficando desalinhado com o ERIENCE */}
             <div>
               <NumberIndex>02.</NumberIndex>
@@ -182,7 +192,7 @@ const Home = () => {
             </Description>
           </Experience>
 
-          <LabelTitle id="topic-4">
+          <LabelTitle>
             <NumberIndex>03.</NumberIndex>
             <IndexTitle>CONTACT</IndexTitle>
           </LabelTitle>

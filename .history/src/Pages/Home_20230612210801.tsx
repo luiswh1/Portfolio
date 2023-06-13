@@ -21,6 +21,7 @@ import {
 } from "./HomeStyles";
 import IndexList from "../Components/IndexList/IndexList";
 import { Fade } from "react-awesome-reveal";
+import ScrollUpButton from "../Components/ScrollUpButton/ScrollUpButton";
 
 const Home = () => {
   return (

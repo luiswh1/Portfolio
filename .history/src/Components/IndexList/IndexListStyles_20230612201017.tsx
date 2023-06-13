@@ -10,7 +10,7 @@ margin-top: 6vh;
 `
 
 export const SectionItem = styled.span<SectionItemProps>`
-color: ${(props) => (props.isActive ? 'gray' : 'white')};
+color: ${(props) => (props.isActive ? 'black' : 'white')};
 font-size: 1.2rem;
 font-weight: bold;
 display: block;

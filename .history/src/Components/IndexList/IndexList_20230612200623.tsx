@@ -5,7 +5,7 @@ const IndexList = () => {
   const [activeSpan, setActiveSpan] = useState(1);
 
   const scrollToTopico = useCallback((indice: number) => {
-    const topicoElement = document.getElementById(`topic-${indice}`);
+    const topicoElement = document.getElementById(`topico-${indice}`);
     if (topicoElement) {
       topicoElement.scrollIntoView({ behavior: "smooth" });
     }

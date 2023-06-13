@@ -5,12 +5,12 @@ const IndexList = () => {
   const [activeSpan, setActiveSpan] = useState(1);
 
   const scrollToTopico = useCallback((indice: number) => {
-    const topicoElement = document.getElementById(`topic-${indice}`);
+    const topicoElement = document.getElementById(`topico-${indice}`);
     if (topicoElement) {
       topicoElement.scrollIntoView({ behavior: "smooth" });
     }
   }, []);
-
+  
   const handleClick = useCallback(
     (indice: number) => {
       setActiveSpan(indice);
@@ -19,26 +19,22 @@ const IndexList = () => {
     [scrollToTopico]
   );
 
-  const handleSectionClick = (indice: number) => (event: React.MouseEvent<HTMLSpanElement>) => {
-    handleClick(indice);
-  };
-
   return (
     <>
       <Sections>
-        <SectionItem onClick={handleSectionClick(1)} isActive={ activeSpan === 1 }>
+        <SectionItem>
           <span>00</span>
           <span>ABOUT</span>
         </SectionItem>
-        <SectionItem onClick={handleSectionClick(2)} isActive={ activeSpan === 2 }>
+        <SectionItem>
           <span>01</span>
           <span>SKILLS</span>
         </SectionItem>
-        <SectionItem onClick={handleSectionClick(3)} isActive={ activeSpan === 3 }>
+        <SectionItem>
           <span>02</span>
           <span>EXP</span>
         </SectionItem>
-        <SectionItem onClick={handleSectionClick(4)} isActive={ activeSpan === 4 }>
+        <SectionItem>
           <span>03</span>
           <span>CONTACT</span>
         </SectionItem>

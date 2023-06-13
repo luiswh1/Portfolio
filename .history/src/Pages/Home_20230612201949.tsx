@@ -28,7 +28,7 @@ const Home = () => {
       <InnerContainer>
         <Fade direction="down" triggerOnce>
           <IndexList />
-          <NameSection id="topic-1">
+          <NameSection>
             <StyledName>
               LUIS <br />
               WEBER
@@ -41,7 +41,7 @@ const Home = () => {
             DEVELOPER
           </Profession>
 
-          <About>
+          <About id="topic-1">
             I am a passionate and dedicated Full Stack Junior Developer with 2
             years of experience. , I have successfully contributed to the
             development of visually appealing, user-friendly web applications.
@@ -53,12 +53,12 @@ const Home = () => {
             and contribute my knowledge and enthusiasm to drive success.
           </About>
 
-          <LabelTitle id="topic-2">
+          <LabelTitle>
             <NumberIndex>01.</NumberIndex>
             <IndexTitle>SKILLS</IndexTitle>
           </LabelTitle>
 
-          <About>
+          <About id="topic-2">
             I have expertise in both front-end and back-end technologies,
             including HTML, CSS, JavaScript, React, Typescript, Node.js, and
             Java. below it is possible to better check the tools that I have
@@ -140,7 +140,7 @@ const Home = () => {
             </SkillItem>
           </ListSkills>
 
-          <LabelTitle id="topic-3">
+          <LabelTitle id="parent">
             {/* TODO Ajustar o EXP em diferente resoluções de celular, pois está ficando desalinhado com o ERIENCE */}
             <div>
               <NumberIndex>02.</NumberIndex>
@@ -151,7 +151,7 @@ const Home = () => {
             </div>
           </LabelTitle>
 
-          <Experience>
+          <Experience id="topic-3">
             <Company>Meta</Company>
             <Date>September - 2021 - Present</Date>
             <Description>
@@ -182,12 +182,12 @@ const Home = () => {
             </Description>
           </Experience>
 
-          <LabelTitle id="topic-4">
+          <LabelTitle>
             <NumberIndex>03.</NumberIndex>
             <IndexTitle>CONTACT</IndexTitle>
           </LabelTitle>
 
-          <About>
+          <About id="topic-4">
             If you would like to have a direct conversation with me to get to
             know me better, I have provided all of my contact information and
             social media profiles below for ease of communication. I look

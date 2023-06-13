@@ -4,10 +4,10 @@ import ScrollUpButton from './Components/ScrollUpButton/ScrollUpButton';
 
 function App() {
   return (
-    <div>
-      <Home />
-      <ScrollUpButton showBelow={ 250 }/>
-    </div>
+    <>
+    <ScrollUpButton />
+    <Home />
+    </>
   );
 }
 
